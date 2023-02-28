@@ -3,7 +3,9 @@
 var $plugins =
 [
 
+
 {"name":"Community_Basic","status":true,"description":"Basic plugin for manipulating important parameters.","parameters":{"cacheLimit":"20","screenWidth":"816","screenHeight":"624","changeWindowWidthTo":"","changeWindowHeightTo":"","renderingMode":"auto","alwaysDash":"off"}},
 {"name":"portalScanner","status":true,"description":"","parameters":{}}
+
 
 ];
