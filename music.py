@@ -57,4 +57,4 @@ wave10 = synthesizer.generate_chord(chord4, 1.5)
 
 
 
-writer.write_waves("Music.ogg",wave,wave1,wave2,wave3,wave4,wave5,wave6,wave7,wave8,wave9,wave10)
+writer.write_waves("Project_Portal/audio/bgm/ProgHome1.ogg",wave,wave1,wave2,wave3,wave4,wave5,wave6,wave7,wave8,wave9,wave10)
