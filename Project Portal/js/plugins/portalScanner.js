@@ -7,20 +7,19 @@ var _Game_Interpreter_pluginCommand = Game_Interpreter.prototype.pluginCommand;
 Game_Interpreter.prototype.pluginCommand = function (command, args) {
     _Game_Interpreter_pluginCommand.call(this, command, args);
     if (command === 'scan') {
-        var newChar = prompt("Which character do you want to play as now?").toLowerCase()
-        while (newChar != "stealthelf" && newChar != "littlemac" && newChar != "benny") {
+        var newChar = prompt("Which character do you want to play as now?")
+        while (newChar != "doenmvpwsfyrnmvklwj" && newChar != "hwqpdjolncikebgufwkndk" && newChar != "wesrdtfgkorhjnlihguiwgqdqwhbk") {
             newChar = prompt("Please input a valid character.")
         }
-        console.log(newChar);
         $gameParty.removeActor(charNum)
         switch (newChar) {
-            case "stealthelf":
+            case "doenmvpwsfyrnmvklwj":
                 var charNum = 2
                 break;
-            case "littlemac":
+            case "hwqpdjolncikebgufwkndk":
                 var charNum = 3
                 break;
-            case "benny":
+            case "wesrdtfgkorhjnlihguiwgqdqwhbk":
                 var charNum = 4
                 break;
             default:
