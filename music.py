@@ -13,48 +13,83 @@ synthesizer = Synthesizer(osc1_waveform=Waveform.sine, osc1_volume=2.0, use_osc2
 
 # You can also specify frequencies to play just intonation
 
-chord = [600.0,550.0,10.0]
-player.play_wave(synthesizer.generate_constant_wave(600.0,1.25))
+#player.play_wave(synthesizer.generate_chord(chord, 1.25))
 
-player.play_wave(synthesizer.generate_chord(chord, 1.25))
+#player.play_wave(synthesizer.generate_constant_wave(500.0,1.25))
 
-player.play_wave(synthesizer.generate_constant_wave(500.0,1.25))
+#player.play_wave(synthesizer.generate_constant_wave(450.0,1))
 
-player.play_wave(synthesizer.generate_constant_wave(450.0,1))
+#chord1 =[400.0,350.0,250.0]
+#player.play_wave(synthesizer.generate_chord(chord1, 1.5))
 
-chord1 =[400.0,350.0,250.0]
-player.play_wave(synthesizer.generate_chord(chord1, 1.5))
+#chord2=[300.0,350.0,200.0]
+#player.play_wave(synthesizer.generate_chord(chord2, 2))
 
-chord2=[300.0,350.0,200.0]
-player.play_wave(synthesizer.generate_chord(chord2, 2))
+#chord3=[200.0,350.0,400.0]
+#player.play_wave(synthesizer.generate_chord(chord3, 1.75))
 
-chord3=[200.0,350.0,400.0]
-player.play_wave(synthesizer.generate_chord(chord3, 1.75))
+#player.play_wave(synthesizer.generate_constant_wave(380.0,1))
 
-player.play_wave(synthesizer.generate_constant_wave(380.0,1))
+#player.play_wave(synthesizer.generate_constant_wave(260.0,1.25))
 
-player.play_wave(synthesizer.generate_constant_wave(260.0,1.25))
+#player.play_wave(synthesizer.generate_constant_wave(350.0,1))
 
-player.play_wave(synthesizer.generate_constant_wave(350.0,1))
-
-chord4 = [300.0,250.0,150.0]
-player.play_wave(synthesizer.generate_chord(chord4, 1.5))
+#chord4 = [300.0,250.0,150.0]
+#player.play_wave(synthesizer.generate_chord(chord4, 1.5))
 
 writer = Writer()
 #chord = ["C4", "E4", "G4"]
-wave = synthesizer.generate_constant_wave(600.0,1.25)
-wave1 = synthesizer.generate_chord(chord, 1.25)
-wave2 = synthesizer.generate_constant_wave(450.0,1.25)
-wave3 = synthesizer.generate_constant_wave(500.0,1)
-wave4 = synthesizer.generate_chord(chord1, 1.5)
-wave5 = synthesizer.generate_chord(chord2, 2)
-wave6 = synthesizer.generate_chord(chord3, 1.75)
-wave7 = synthesizer.generate_constant_wave(380.0,1)
-wave8 = synthesizer.generate_constant_wave(260.0,1.25)
-wave9 = synthesizer.generate_constant_wave(350.0,1)
-wave10 = synthesizer.generate_chord(chord4, 1.5)
+#wave = synthesizer.generate_constant_wave(600.0,1.25)
+#wave1 = synthesizer.generate_chord(chord, 1.25)
+#wave2 = synthesizer.generate_constant_w5)ave(450.0,1.2
+#wave3 = synthesizer.generate_constant_wave(500.0,1)
+#wave4 = synthesizer.generate_chord(chord1, 1.5)
+#wave5 = synthesizer.generate_chord(chord2, 2)
+#wave6 = synthesizer.generate_chord(chord3, 1.75)
+#wave7 = synthesizer.generate_constant_wave(380.0,1)
+#wave8 = synthesizer.generate_constant_wave(260.0,1.25)
+#wave9 = synthesizer.generate_constant_wave(350.0,1)
+#wave10 = synthesizer.generate_chord(chord4, 1.5)
 
 
 
 
-writer.write_waves("Project_Portal/audio/bgm/ProgHome1.ogg",wave,wave1,wave2,wave3,wave4,wave5,wave6,wave7,wave8,wave9,wave10)
+#writer.write_waves("",wave,wave1,wave2,wave3,wave4,wave5,wave6,wave7,wave8,wave9,wave10)
+
+
+
+player.play_wave(synthesizer.generate_constant_wave(690.0,0.6))
+player.play_wave(synthesizer.generate_constant_wave(620.0,0.6))
+player.play_wave(synthesizer.generate_constant_wave(590.0,0.6))
+player.play_wave(synthesizer.generate_constant_wave(690.0,0.6))
+player.play_wave(synthesizer.generate_constant_wave(620.0,0.6))
+player.play_wave(synthesizer.generate_constant_wave(590.0,0.6))
+player.play_wave(synthesizer.generate_constant_wave(700.0,0.6))
+player.play_wave(synthesizer.generate_constant_wave(480.0,0.6))
+player.play_wave(synthesizer.generate_constant_wave(630.0,0.6))
+player.play_wave(synthesizer.generate_constant_wave(500.0,0.6))
+player.play_wave(synthesizer.generate_constant_wave(470.0,0.6))
+player.play_wave(synthesizer.generate_constant_wave(630.0,0.6))
+player.play_wave(synthesizer.generate_constant_wave(500.0,0.6))
+player.play_wave(synthesizer.generate_constant_wave(470.0,0.6))
+player.play_wave(synthesizer.generate_constant_wave(530.0,0.6))
+player.play_wave(synthesizer.generate_constant_wave(430.0,0.6))
+
+wave = synthesizer.generate_constant_wave(690.0,0.6)
+wave1 = synthesizer.generate_constant_wave(620.0,0.6)
+wave2 = synthesizer.generate_constant_wave(590.0,0.6)
+wave3 = synthesizer.generate_constant_wave(690.0,0.6)
+wave4 = synthesizer.generate_constant_wave(620.0,0.6)
+wave5 = synthesizer.generate_constant_wave(590.0,0.6)
+wave6 = synthesizer.generate_constant_wave(700.0,0.6)
+wave7 = synthesizer.generate_constant_wave(480.0,0.6)
+wave8 = synthesizer.generate_constant_wave(630.0,0.6)
+wave9 = synthesizer.generate_constant_wave(500.0,0.6)
+wave10 = synthesizer.generate_constant_wave(470.0,0.6)
+wave11 = synthesizer.generate_constant_wave(630.0,0.6)
+wave12 = synthesizer.generate_constant_wave(500.0,0.6)
+wave13 = synthesizer.generate_constant_wave(470.0,0.6)
+wave14 = synthesizer.generate_constant_wave(530.0,0.6)
+wave15 = synthesizer.generate_constant_wave(430.0,0.6)
+
+writer.write_waves("Project_Portal/audio/bgm/TownMusicLead.ogg",wave,wave1,wave2,wave3,wave4,wave5,wave6,wave7,wave8,wave9,wave10,wave11,wave12,wave13,wave14,wave15)
