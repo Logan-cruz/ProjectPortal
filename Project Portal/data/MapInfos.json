@@ -3,5 +3,5 @@ null,
 {"id":1,"expanded":true,"name":"MAP001","order":1,"parentId":0,"scrollX":1092,"scrollY":614.6666666666666},
 {"id":2,"expanded":true,"name":"Home","order":2,"parentId":1,"scrollX":1092,"scrollY":614.6666666666666},
 {"id":3,"expanded":true,"name":"Bathroom","order":3,"parentId":2,"scrollX":1092,"scrollY":614.6666666666666},
-{"id":4,"expanded":false,"name":"debugRoom","order":4,"parentId":3,"scrollX":1081.3333333333333,"scrollY":640}
+{"id":4,"expanded":false,"name":"debugRoom","order":4,"parentId":3,"scrollX":1081.3333333333333,"scrollY":614.6666666666666}
 ]
