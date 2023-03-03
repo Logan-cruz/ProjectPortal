@@ -10,7 +10,7 @@ Game_Interpreter.prototype.pluginCommand = function (command, args) {
         var newChar = prompt("Which character do you want to play as now?")
         console.log(newChar);
         if (newChar != null) {
-            while (newChar != "doenmvpwsfyrnmvklwj" && newChar != "hwqpdjolncikebgufwkndk" && newChar != "wesrdtfgkorhjnlihguiwgqdqwhbk") {
+            while (newChar != "doenmvpwsfyrnmvklwj" && newChar != "hwqpdjolncikebgufwkndk" && newChar != "wesrdtfgkorhjnlihguiwgqdqwhbk" && newChar != "fisherman") {
                 newChar = prompt("Please input a valid character.")
                 if (newChar == null) {
                     break
@@ -27,6 +27,9 @@ Game_Interpreter.prototype.pluginCommand = function (command, args) {
                 case "wesrdtfgkorhjnlihguiwgqdqwhbk":
                     var charNum = 4
                     break;
+                case "fisherman":
+                    var charNum = 5
+                    break;
                 default:
                     break;
             }
@@ -36,12 +39,25 @@ Game_Interpreter.prototype.pluginCommand = function (command, args) {
 
 
     }
-    /*    if (command === "removeAll") {
-            console.log($gameParty._actors.length);
-            var partyLen = $gameParty._actors.length
-            for (var i = 1; i <= partyLen; i++) {
-                console.log(i);
-                $gameParty.removeActor(i)
-            }
-        }*/
+    if (command === "fishing") {
+
+        var chances = []
+        var fishermanChances = Math.floor($gameParty.highestLevel() / 5) + 2
+        console.log(fishermanChances);
+        console.log($gameParty.highestLevel() + " is the fisherman's level");
+        for (let i = 0; i < fishermanChances; i++) {
+            chances.push(Math.round(Math.random() * 100))
+        }
+
+        // if (player == "fishguy") {
+        //     for (const chance of chances) {
+        //         chance += 5;
+        //     }
+        // }
+        chances = chances.sort(function (a, b) { return a - b });
+
+        console.log(chances[chances.length - 1]);
+        console.log(chances);
+
+    }
 }
