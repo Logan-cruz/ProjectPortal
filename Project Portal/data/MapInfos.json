@@ -1,8 +1,8 @@
 [
 null,
 {"id":1,"expanded":true,"name":"Portal","order":1,"parentId":0,"scrollX":832,"scrollY":640},
-{"id":2,"expanded":true,"name":"Home","order":2,"parentId":0,"scrollX":893.4545454545455,"scrollY":502.90909090909093},
-{"id":3,"expanded":false,"name":"Bathroom","order":3,"parentId":2,"scrollX":655.2,"scrollY":368.8},
-{"id":4,"expanded":false,"name":"debugRoom","order":4,"parentId":0,"scrollX":816,"scrollY":640},
-{"id":5,"expanded":false,"name":"Home Town","order":5,"parentId":0,"scrollX":973.0909090909091,"scrollY":574.9090909090909}
+{"id":2,"expanded":true,"name":"Home","order":2,"parentId":0,"scrollX":1090.6666666666667,"scrollY":608.6666666666666},
+{"id":3,"expanded":false,"name":"Bathroom","order":3,"parentId":2,"scrollX":1090.6666666666667,"scrollY":608.6666666666666},
+{"id":4,"expanded":false,"name":"debugRoom","order":4,"parentId":0,"scrollX":1080,"scrollY":650},
+{"id":5,"expanded":false,"name":"Home Town","order":5,"parentId":0,"scrollX":1080,"scrollY":608.6666666666666}
 ]
