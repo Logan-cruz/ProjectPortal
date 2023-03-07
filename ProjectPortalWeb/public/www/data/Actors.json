@@ -3,5 +3,8 @@ null,
 {"id":1,"battlerName":"Actor1_1","characterIndex":0,"characterName":"Actor1","classId":1,"equips":[1,1,2,3,0],"faceIndex":0,"faceName":"Actor1","traits":[],"initialLevel":1,"maxLevel":99,"name":"Harold","nickname":"","note":"","profile":""},
 {"id":2,"battlerName":"","characterIndex":3,"characterName":"Actor1","classId":1,"equips":[0,0,0,0,0],"faceIndex":3,"faceName":"Actor1","traits":[],"initialLevel":1,"maxLevel":99,"name":"StealthElf","nickname":"","note":"","profile":""},
 {"id":3,"battlerName":"","characterIndex":2,"characterName":"Actor3","classId":1,"equips":[0,0,0,0,0],"faceIndex":2,"faceName":"Actor3","traits":[],"initialLevel":1,"maxLevel":99,"name":"LittleMac","nickname":"","note":"","profile":""},
-{"id":4,"battlerName":"","characterIndex":7,"characterName":"People3","classId":1,"equips":[0,0,0,0,0],"faceIndex":7,"faceName":"People3","traits":[],"initialLevel":1,"maxLevel":99,"name":"Benny","nickname":"","note":"","profile":""}
+{"id":4,"battlerName":"","characterIndex":7,"characterName":"People3","classId":1,"equips":[0,0,0,0,0],"faceIndex":7,"faceName":"People3","traits":[],"initialLevel":1,"maxLevel":99,"name":"Benny","nickname":"","note":"","profile":""},
+{"id":5,"battlerName":"","characterIndex":1,"characterName":"People5","classId":1,"equips":[0,0,0,0,0],"faceIndex":4,"faceName":"People3","traits":[],"initialLevel":1,"maxLevel":99,"name":"Super Mario","nickname":"Mario","note":"","profile":""},
+{"id":6,"battlerName":"","characterIndex":0,"characterName":"People5","classId":1,"equips":[0,0,0,0,0],"faceIndex":4,"faceName":"People1","traits":[],"initialLevel":1,"maxLevel":99,"name":"Super Luigi","nickname":"Luigi","note":"","profile":""},
+{"id":7,"battlerName":"","characterIndex":3,"characterName":"People2","classId":5,"equips":[5,0,0,0,0],"faceIndex":3,"faceName":"People2","traits":[],"initialLevel":46,"maxLevel":99,"name":"Fisherman","nickname":"","note":"","profile":""}
 ]
