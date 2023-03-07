@@ -10,7 +10,7 @@ Game_Interpreter.prototype.pluginCommand = function (command, args) {
         var newChar = prompt("Which character do you want to play as now?")
         console.log(newChar);
         if (newChar != null) {
-            while (newChar != "doenmvpwsfyrnmvklwj" && newChar != "hwqpdjolncikebgufwkndk" && newChar != "wesrdtfgkorhjnlihguiwgqdqwhbk" && newChar != "fisherman") {
+            while (newChar != "doenmvpwsfyrnmvklwj" && newChar != "hwqpdjolncikebgufwkndk" && newChar != "wesrdtfgkorhjnlihguiwgqdqwhbk" && newChar != "iwanknafkcnefhwqfcklnoqfinhqo") {
                 newChar = prompt("Please input a valid character.")
                 if (newChar == null) {
                     break
@@ -27,8 +27,8 @@ Game_Interpreter.prototype.pluginCommand = function (command, args) {
                 case "wesrdtfgkorhjnlihguiwgqdqwhbk":
                     var charNum = 4
                     break;
-                case "fisherman":
-                    var charNum = 5
+                case "iwanknafkcnefhwqfcklnoqfinhqo":
+                    var charNum = 7
                     break;
                 default:
                     break;
