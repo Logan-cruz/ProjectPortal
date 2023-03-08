@@ -1,0 +1,27 @@
+#div1 {
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+#header1 {
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+
+#div2 {
+    margin-top: 5px;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    padding: 5px;
+}
+
+#linkDiv {
+    margin-top: 700px;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    padding: 5px;
+}
